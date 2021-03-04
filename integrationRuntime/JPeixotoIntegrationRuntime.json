@@ -1,0 +1,6 @@
+{
+	"name": "JPeixotoIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
