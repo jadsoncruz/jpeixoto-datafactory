@@ -1,0 +1,16 @@
+{
+	"name": "Produtos",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DBJPeixoto",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Db2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "DBA",
+			"table": "PRODUTO"
+		}
+	}
+}
