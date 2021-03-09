@@ -1,0 +1,12 @@
+{
+	"name": "Produto",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MIGRAFACIL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}

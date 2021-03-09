@@ -1,0 +1,20 @@
+{
+	"name": "ImportarProdutos",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "Produto",
+						"type": "DatasetReference"
+					},
+					"name": "Produtos"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tignoreNoFilesFound: false,\n\tlimit: 10,\n\tisolationLevel: 'READ_UNCOMMITTED',\n\tquery: 'SELECT * FROM PRODUTO',\n\tformat: 'query') ~> Produtos"
+		}
+	}
+}
